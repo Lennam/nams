@@ -2,11 +2,15 @@ baseURL = "https://www.nams.site/"
 languageCode = "zh-cn"
 title = "Nam's"
 theme = "hugo-cactus-theme"
+googleAnalytics = "UA-176417735-1"
+disqusShortname = "nams-2"
 
 [params]
 	name = "Nam"
 	description = "Nam's blog"
-	bio = "学生"
+	bio = ""
+	# 创建robots.txt，建议设置为true
+	enableRobotsTXT = true
 	# Enter optionally your twitter account
 	# twitter = "Your Twitter account"
 	enableRSS = true
@@ -28,7 +32,7 @@ theme = "hugo-cactus-theme"
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "在路上"
+	aboutAuthor = "写最简单的代码，做最单纯的人"
 	tweet = ""
 	share = ""
 	# 404 page
